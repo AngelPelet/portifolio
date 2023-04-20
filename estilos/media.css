@@ -1,0 +1,79 @@
+@media screen and (max-width: 760px){
+    .img-cab{
+        display: none;
+    }
+
+    .menu{
+        gap: 32px;
+    }
+
+    .item{
+        font-size: 16px;
+    }
+
+    .perfil{
+        margin: auto;
+    }
+
+    .nome{
+        font-size: 40px;
+    }
+
+    .sobre{
+        padding-top: 30px;
+    }
+
+    .caixa{
+        margin: 5px 25px 45px 25px;
+    }
+
+    .boxdescricao{
+        height: 370px;
+        width: 320px;
+    }
+    
+    .tamimg{
+        width: 300px;
+        height: 149px;
+        margin: -5px;
+    }
+
+    .botao{
+        margin-top: 20px;
+    }
+
+    .certificados{
+        max-width: 340px;
+    }
+
+    .titcert >p{
+        display: none;
+    }
+
+    .certident{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotocert{
+        cursor: default;
+    }
+
+    .modal, .modal1, .modal2{
+        display: none;
+    }
+
+    .fade, .fade1, .fade2{
+        display: none;
+    }
+
+    .botoes{
+        width: 200px;
+        margin: auto;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+}

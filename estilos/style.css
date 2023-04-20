@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    max-width: 1920px;
+    margin: auto;
+    background-color: rgb(238, 223, 201);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+    background-color: rgba(131, 109, 83, 0.856);
+}
+
+.img-cab{
+    margin: 0;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.item:hover{
+    color: bisque;
+    transition: 0.3s;
+}
+
+.item{
+    font-family: 'Oswald', sans-serif;
+    color: azure;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.main{
+    border-top: 0.4px solid azure;
+    margin-bottom: 50px;
+}
+
+.corpo{
+    background-image: url(plano-de-fundo.png);
+    max-height: 930px;
+    background-position: center center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.nome{
+    font-family: 'Tilt Warp', cursive;
+    color: azure;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.baixo-nome{
+    font-family: 'Tilt Warp', cursive;
+    color: azure;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 30;
+    padding-top: 150px;
+
+}
+
+.caixa{
+    background-color: rgba(255, 228, 196, 0.212);
+    margin: 10px 50px 90px 50px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px rgba(22, 21, 21, 0.623);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.linkju{
+    color: azure;
+}
+
+.linkju:hover{
+    color: rgb(241, 204, 158);
+    transition: 0.3s;
+}
+
+#back{
+    width: 100%;
+    margin: 0;
+}
+
+.projetos{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.titpro{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seguimento{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1600px;
+    flex-flow: row wrap;
+    gap: 5px;
+}
+
+.boxdescricao{
+    margin-top: 60px;
+    background-color: rgba(189, 154, 111, 0.521);
+    height: 450px;
+    width: 400px;
+    padding: 17px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.363);
+    transition: 0.5s;
+}
+
+.boxdescricao:hover{
+    transform: scale(1.1);
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descricaoproj{
+    margin-bottom: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tamimg{
+    width: 367px;
+    height: 200px;
+}
+
+.botoes{
+    width: 210px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bx-code-alt, .bx-show{
+    font-size: 40px;
+    color: black;
+    transition: 0.3s;
+}
+
+.bx-code-alt:hover, .bx-show:hover{
+    color: rgb(107, 89, 66);
+}
+
+.perfis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.titulo2{
+    border-top: 0.4px solid rgb(0, 0, 0);
+    padding-top: 20px;
+    font-family: 'Oswald', cursive;
+    color: black;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.redes{
+    margin-bottom: 15px;
+}
+
+.link{
+    color: rgb(0, 0, 0);
+}
+
+.link:hover{
+    color: rgb(151, 100, 38);
+    transition: 0.3s;
+}
+
+.rodape{
+    border-top: 0.4px solid azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(131, 109, 83, 0.856);
+}
+
+.fundo{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato{
+    font-family: 'Oswald', cursive;
+    color: azure;
+    font-weight: 100;
+    padding: 10px;              
+}
+
+.info{
+    color: azure;
+}
+
+#bnt-top{
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 50%;
+    position: fixed;
+    left: 95%;
+    top: 95%;
+    transform: translate(-75%, -75%);
+}
+
+#bnt-top:hover{
+    background-color: rgb(128, 128, 128);
+}
