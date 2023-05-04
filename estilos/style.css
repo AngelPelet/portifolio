@@ -215,7 +215,7 @@ body{
 }
 
 .rodape{
-    border-top: 0.4px solid black;
+    border-top: 0.4px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
