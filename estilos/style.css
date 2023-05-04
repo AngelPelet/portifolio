@@ -90,6 +90,17 @@ body{
     font-weight: 400;
 }
 
+.bxl-github, .bxl-linkedin-square, .bxl-instagram-alt{
+    color: white;
+    font-size: 45px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.bxl-github:hover, .bxl-linkedin-square:hover, .bxl-instagram-alt:hover{
+    color: bisque;
+}
+
 .sobre{
     display: flex;
     flex-direction: column;
@@ -203,37 +214,8 @@ body{
     color: rgb(107, 89, 66);
 }
 
-.perfis{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.titulo2{
-    border-top: 0.4px solid rgb(0, 0, 0);
-    padding-top: 20px;
-    font-family: 'Oswald', cursive;
-    color: black;
-    font-size: 36px;
-    font-weight: 200;
-}
-
-.redes{
-    margin-bottom: 15px;
-}
-
-.link{
-    color: rgb(0, 0, 0);
-}
-
-.link:hover{
-    color: rgb(151, 100, 38);
-    transition: 0.3s;
-}
-
 .rodape{
-    border-top: 0.4px solid azure;
+    border-top: 0.4px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -248,10 +230,9 @@ body{
 }
 
 .contato{
-    font-family: 'Oswald', cursive;
-    color: azure;
+    color: white;
     font-weight: 100;
-    padding: 10px;              
+    margin-bottom: 5px;
 }
 
 .info{
