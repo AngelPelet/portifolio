@@ -42,13 +42,14 @@
 
 .fade, .modal,
 .fade1, .modal1,
-.fade2, .modal2{
+.fade2, .modal2,
+.fade3, .modal3{
     transition: 0.5s;
     opacity: 1;
     pointer-events: all;
 }
 
-.fade, .fade1, .fade2{
+.fade, .fade1, .fade2, .fade3{
     position: fixed;
     top: 0;
     left: 0;
@@ -58,7 +59,7 @@
     z-index: 5;
 }
 
-.modal, .modal1, .modal2{
+.modal, .modal1, .modal2, .modal3{
     position: fixed;
     left: 50%;
     top: 50%;
@@ -71,14 +72,16 @@
 
 .modal.hide, .fade.hide,
 .modal1.hide1, .fade1.hide1,
-.modal2.hide2, .fade2.hide2{
+.modal2.hide2, .fade2.hide2,
+.modal3.hide3, .fade3.hide3{
     opacity: 0;
     pointer-events: none;
 }
 
 .modal.hide,
 .modal1.hide1,
-.modal2.hide2{
+.modal2.hide2,
+.modal3.hide3{
     top: 0;
 }
 
@@ -93,7 +96,8 @@
 
 .close-modal:hover,
 .close-modal1:hover,
-.close-modal2:hover{
+.close-modal2:hover,
+.close-modal3:hover{
     opacity: 0.5;
 }
 

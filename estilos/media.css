@@ -59,11 +59,11 @@
         cursor: default;
     }
 
-    .modal, .modal1, .modal2{
+    .modal, .modal1, .modal2, .modal3{
         display: none;
     }
 
-    .fade, .fade1, .fade2{
+    .fade, .fade1, .fade2, .fade3{
         display: none;
     }
 
